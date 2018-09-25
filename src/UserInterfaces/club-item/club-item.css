@@ -1,0 +1,54 @@
+.club-card-container {
+  width: 32%;
+  height: 400px;
+  text-align: center;
+  padding: 17px;
+  box-shadow: 8px 8px 8px #f7f5f5;
+  
+  /* margin-left:20px; */
+  border-radius: 5px;
+  margin-bottom:50px;
+}
+.club-title{
+  height: 45px;
+}
+.club-card {
+  
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+ 
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.club-image {
+  background-image: url(https://www.mearto.com/assets/no-image-83a2b680abc7af87cfff7777d0756fadb9f9aecd5ebda5d34f8139668e0fc842.png);
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  max-height: 50%;
+}
+.club-description {
+  
+  text-align: center;
+  padding: 10px;
+  max-height: 50%;
+  
+}
+.club-description p{
+  overflow-wrap: break-word;
+  height: 50px;
+}
+
+.explore-btn {
+  width: 100px;
+  height: 50px;
+  background-color: goldenrod;
+  color: white;
+  border:none; 
+  text-align: center;
+}

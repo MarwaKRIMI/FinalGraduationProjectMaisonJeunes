@@ -1,0 +1,15 @@
+.message-content{
+display:flex;
+align-self: center;
+justify-content: space-between
+}
+.message-content button {
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    left: 15px;
+    height: 20px;
+}
+.message-content button:hover{
+    background-color: orange;
+}

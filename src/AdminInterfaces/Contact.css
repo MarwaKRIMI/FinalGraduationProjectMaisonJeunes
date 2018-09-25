@@ -1,0 +1,58 @@
+/*.pom-agile input[type="text"],
+.pom-agile input[type="email"],
+.pom-agile input[type="password"] {
+  outline: none;
+  font-size: 14px;
+  border: none;
+  background: transparent;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  flex-basis: 92%;
+  -webkit-flex-basis: 92%;
+}*/
+
+
+.input input[type=text],.input input[type="email"] {
+    padding: 5px 15px;
+    background: transparent;
+    margin-bottom: 16px;
+    width: 30%;
+    border-top: none;
+    border: 2px solid  rgb(239, 150, 50);
+    height:35px;
+
+}
+ textarea{
+    width: 30%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 2px solid  rgb(239, 150, 50);
+    background-color: #f8f8f8;
+ 
+    
+}
+label{
+    color: #000;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif
+}
+
+/*input[type=submit]*/
+.contact{
+    color: #fff;
+    background: rgb(239, 150, 50);
+    border: none;
+    padding: 13px 0;
+    width: 20%;
+    margin-top:20px;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:40%;
+ 
+}

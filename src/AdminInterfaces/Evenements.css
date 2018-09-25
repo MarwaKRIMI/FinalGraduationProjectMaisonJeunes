@@ -1,0 +1,15 @@
+.event-date{
+        position:absolute;
+        top: 0;
+        right: 0;
+        padding: 5px 10px;
+        border: 2px solid black;
+        border-top: none;
+        border-right:none;
+        color:black;
+        font-size:20px;
+        font-family:Times New Roman;
+}
+.card-event{
+        width:"20%"
+}
