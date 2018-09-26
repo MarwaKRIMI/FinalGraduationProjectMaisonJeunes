@@ -12,20 +12,23 @@ import DemandesAdherents from './DemandesAdhesions'
 import HomePage from './HomePage'
 import AddProduct from './AjouterClub'
 import EditProduct from './EditProduct'
-import AjouterClub from './AjouterClub';
+import AjouterClub from './AjouterClub'
+import NavbarFeatures from './NavbarFeatures'
+import Example from '../Example'
+
 class HomeAdmin extends React.Component{
 
     render() {
         return <div>
-           
          
-            
-            <Propos/>
-      <Galery/>
+         <Example/>
+      
+            <Propos id='propos'/>
+      <Galery id='galery'/>
   <Evenement/>
  
 
-<HomePage/>
+<HomePage id='club'/>
 
             </div>
 

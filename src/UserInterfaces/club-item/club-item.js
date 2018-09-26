@@ -1,7 +1,7 @@
 import React from "react";
 //import {connect} from 'react-redux'
 import "./club-item.css";
-
+import {Link} from 'react-router-dom'
 const ClubCard = props => {
   const { club = {} } = props;
   const {
@@ -24,7 +24,9 @@ const ClubCard = props => {
         ></div>
 
         <div className="club-description"><p>{description}</p></div>
+        <Link to='/explore-club/:name'>
         <div><input class="explore-btn" type="button" value="Explorer" /></div>
+        </Link>
         </div>
         
     </div>

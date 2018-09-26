@@ -114,47 +114,7 @@ Nous mettons à votre disposition un poste d'atelier équipé d'un chevalet, une
         </p>
         </div>
       
-    <h2>La liste des inscrits au club de peinture</h2>
-
-        <table>
-  <thead>
-    <tr>
-      <th>Nom</th>
-      <th>Prénom</th>
-      <th>Téléphone</th>
-      <th>Email</th>
-     
-      <th></th>
-    </tr>
-  </thead>
-
-    <tr>
-      <td>Marwa</td>
-      <td>KRIMI</td>
-      <td>20000000</td>
-      <td>Marwa@gmail.com</td>
     
-      <td><button>Supprimer</button></td>
-    </tr>
-    <tr>
-      <td>Marwa</td>
-      <td>KRIMI</td>
-      <td>20000000</td>
-      <td>Marwa@gmail.com</td>
-    
-      <td><button>Supprimer</button></td>
-    </tr>
-
-      <tr>
-      <td>Marwa</td>
-      <td>KRIMI</td>
-      <td>20000000</td>
-      <td>Marwa@gmail.com</td>
-     
-      <td><button>Supprimer</button></td>
-    </tr>
-
-</table>
 
   
           </div>

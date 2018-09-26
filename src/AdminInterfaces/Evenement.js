@@ -106,7 +106,7 @@ const Evenement = (props) => {
           <CardTitle>
 Soirée films d’horreurs et cache-cache</CardTitle>
           <CardSubtitle>6:00 pm - 10:30 pm</CardSubtitle>
-          <CardText>La maison des jeunes de Granby organise une soirée cache-cache dans le noir à la Barak. L’événement s’adresse à des jeunes qui n’ont pas peur du noir car le jeu se produira entre le visionnement de deux films d’horreur.</CardText>
+          <CardText>La maison des jeunes organise une soirée cache-cache dans le noir à la Barak. L’événement s’adresse à des jeunes qui n’ont pas peur du noir car le jeu se produira entre le visionnement de deux films d’horreur.</CardText>
           <button type="button" className="btn-event">Details</button>
         </CardBody>
       </Card>
