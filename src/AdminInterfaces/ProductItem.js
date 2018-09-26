@@ -26,12 +26,7 @@ class ProductItem extends React.Component {
           {this.props.product.description}
         </div>
         <div className="product-price">{this.props.product.price}</div>
-        
-        <div>
-        <Link to={`/explore-club/${this.props.product.name}`}>
-           <button className="voir-plus">Voir plus</button>
-           </Link>
-           </div>
+   
         <div>
           <Link to={`/edit-page/${this.props.product.name}`}>
             <button className="edit"  style={{ marginLeft: "7px",width:'100px'}}>Edit</button>

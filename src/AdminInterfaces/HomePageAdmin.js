@@ -23,11 +23,10 @@ class HomeAdmin extends React.Component{
             <Propos/>
       <Galery/>
   <Evenement/>
-  <ListInscrits/>
-<DemandesAdherents/>
+ 
+
 <HomePage/>
-<AjouterClub/>
-<EditProduct/>
+
             </div>
 
     }
