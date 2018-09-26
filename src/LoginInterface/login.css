@@ -18,7 +18,7 @@
 .sub-main-w3 form {
     max-width: 600px;
     margin: 0 5vw;
-    background-color:black;
+    background-color:#0000005c;
     padding: 3.5vw;
     box-sizing: border-box;
     display: -webkit-flex;
@@ -44,7 +44,7 @@
     padding: 15px 15px;
     box-sizing: border-box;
     border: none;
-    background: #ffffff;
+    background:#0000005c;
     border: 1px solid #FFC107;
     box-shadow: 1px 5px 12px 0px rgba(0, 0, 0, 0.46);
 }
@@ -70,7 +70,7 @@
 .btn-login{
     width:200px;
     height: 50px;
-  background-color: goldenrod;
+  background-color: #daa5208f;
   color:white;
   border:none
 }
@@ -237,9 +237,16 @@ html input[disabled] {
 
 
 .main-content-agile{
-    background-image: url('../images/cover4.jpg');
+    background-image: url('http://www.pagesport.tn/wp-content/uploads/2015/08/mj-tunis2.jpg');
     background-repeat:no-repeat;
     background-size: cover;
     height: 700px;
    
+}
+.inscription-link{
+    margin-left: -329px;
+    color: #ffffffc9;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2px;
 }

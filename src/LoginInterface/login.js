@@ -59,14 +59,14 @@ class LogIn extends Component {
 				<input type="password" onChange={this.onChange} className="form-control textbox psw" name="password" placeholder="Mot de passe" required=""/>
 			</div>
 			<div className="form-group-2">
-				<button className="btn" onClick={(e)=> {
+				<button className="btn-login" onClick={(e)=> {
 					e.preventDefault()
 					this.verifConnectedUser()}}>
 				Se connecter
 				</button>
 			</div>
             <Link to="/inscription">
-			<p style={{marginLeft:'-350px', color:'white', fontWeight:'bold',fontSize:'20px'}}>S'inscrire</p>
+			<p  className="inscription-link">S'inscrire</p>
             
             </Link>
 		</form>

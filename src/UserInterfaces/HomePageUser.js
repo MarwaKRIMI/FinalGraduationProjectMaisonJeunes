@@ -8,7 +8,7 @@ class HomeUser extends React.Component{
     render() {
         return <div> User Page
             <Navbar/>
-              <Propos id='à propos'/>
+              <Propos id='à propos' />
               <Evenement id='evénements'/>
               <Galery id='galerie'/>
             <Club id='clubs'/>
