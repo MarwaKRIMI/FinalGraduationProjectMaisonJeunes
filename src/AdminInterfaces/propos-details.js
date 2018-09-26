@@ -3,7 +3,7 @@ import './propos.css'
 class DetailsPropos extends Component {
     render() {
         return (
-            <div className='propos-details'>
+            <div className='propos-details' >
                 <div className='image-propos-details'>
                 </div>
                     <div className='propos-description-details'>

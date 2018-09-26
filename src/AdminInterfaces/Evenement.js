@@ -10,7 +10,7 @@ import 'mdbreact/dist/css/mdb.css';
 import './Evenements.css'
 const Evenement = (props) => {
   return (
-    <div>
+    <div id='evénements'>
      <div style={{display:'flex' ,justifyContent:'space-around',marginTop:'10%'}}>
       <Card style={{width:"20%"}}>
       <p  className='event-date' ><b>1 Octobre</b></p>

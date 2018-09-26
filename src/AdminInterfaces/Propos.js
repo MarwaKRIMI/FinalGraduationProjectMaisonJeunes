@@ -5,7 +5,7 @@ import propos from '../images/m.jpg';
 class Propos extends Component {
     render() {
         return (
-            <div>
+            <div id="à propos">
                    <h1 className='propos-title' >A propos  </h1>
             <div className='container'>
                         <div className='propos-description'>

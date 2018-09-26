@@ -6,7 +6,7 @@ import ClubCard from '../club-item/club-item'
 
 
 const ClubList = (props) => {
-  return   <div className="club-list">
+  return   <div className="club-list" id='clubs'>
         {
             props.clubs.map(el => <ClubCard key={el.id} club={el} />)
         }
