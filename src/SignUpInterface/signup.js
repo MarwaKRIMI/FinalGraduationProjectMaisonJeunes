@@ -71,17 +71,11 @@ class SignUp extends Component {
 						<span className="glyphicons glyphicons-user" aria-hidden="true"></span>
 					</div>
 				</div>
-				<div className="sub-agile">
-					<input type="checkbox" id="brand1"  value=""/>
-					<label for="brand1">
-						<span style={{color:'white'}}>J'accepte les termes & Conditions</span></label>
-				</div>
-			
-				<div className="clear" ></div>
-				<input className="inscription-btn" type="submit" value="S'inscrire"/>
+				
+				<input className="inscription-button" type="submit" value="S'inscrire"/>
 				<div >
                 <Link to="/">
-              			  <input className="connexion-btn" type="button" value="se connecter"/>
+				<p className="connexion-link">Se connecter</p>
 			    </Link>
 			</div>
 		

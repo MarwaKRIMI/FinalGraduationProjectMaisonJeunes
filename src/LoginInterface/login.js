@@ -66,7 +66,7 @@ class LogIn extends Component {
 				</button>
 			</div>
             <Link to="/inscription">
-			<p style={{marginLeft:'-350px', color:'white', fontWeight:'bold',fontSize:'20px'}}>S'inscrire</p>
+			<p  className="inscription-link">S'inscrire</p>
             
             </Link>
 		</form>

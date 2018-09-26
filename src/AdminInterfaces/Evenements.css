@@ -1,3 +1,8 @@
+.card-style{
+   width:50%;
+   margin-right:2%;
+   margin-left:2%     
+}
 .event-date{
         position:absolute;
         top: 0;
@@ -11,5 +16,5 @@
         font-family:Times New Roman;
 }
 .card-event{
-        width:"20%"
+        width:50%;
 }
