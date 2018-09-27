@@ -1,6 +1,7 @@
 import React from 'react';
 import { MDBDataTable } from 'mdbreact';
-import '../App.css'
+import './Listinscrits.css'
+import Example from '../Example'
 const DatatablePage = () => {
   const data = {
     columns: [
@@ -339,12 +340,15 @@ const DatatablePage = () => {
   };
 
   return (
-    <MDBDataTable
+    <div>
+      <Example/>
+    <MDBDataTable  style={{backgroundColor:'#f5fdb6',marginLeft:'1%',marginRight:'2%'}}
       striped
       bordered
       hover
       data={data}
     />
+    </div>
   );
 }
 

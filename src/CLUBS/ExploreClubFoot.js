@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel, CarouselInner, CarouselItem } from 'mdbreact';
-import '../App.css'
+
 import image1 from '../images/5ade02da7aa41_foot47.jpg';
 import image2 from '../images/1911848-214972868700203-252842685-n__n26jr4.jpg'
 import image3 from '../images/6524628_20170104-113641_1000x625.jpg';
@@ -8,7 +8,7 @@ import image4 from '../images/atur3__ob18ek.jpg';
 import image5 from '../images/foot_beja.jpg';
 import image6 from '../images/teaserbox_62453518.jpg';
 import image7 from '../images/tunisiana-foot-academy-04.jpg';
-
+import '../UserInterfaces/explore-clubs/explore-clubs.css'
 
 class ExploreClubFoot extends Component {
 

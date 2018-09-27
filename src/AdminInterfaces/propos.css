@@ -5,7 +5,8 @@
 .container {
     display: flex;
     flex-direction: row;
-    margin: 10%
+    margin: 10%;
+    position: relative;
 }
 
 .propos-description {
@@ -13,6 +14,7 @@
     padding: 20px;
     width: 400px;
     margin: 5;
+ 
 }
 
 .statistics {
@@ -24,7 +26,7 @@
     border: solid 1px orange;
     padding: 20px;
     width: 200px;
-    margin-left: -20%;
+    margin-left: -10%;
     margin-top: 50%;
     margin-Bottom: 16%;
 
@@ -34,7 +36,7 @@
     border: solid 1px orange;
     padding:20px;
     width:200px;
-    margin-left: -20%;
+    margin-left: -10%;
     margin-top: 5%;
     margin-bottom: 16%;
 

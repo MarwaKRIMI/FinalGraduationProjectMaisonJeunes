@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel, CarouselInner, CarouselItem } from 'mdbreact';
-import '../App.css'
+
 import image1 from '../images/atelier-peinture-dessin-montmagny-2012_1.jpg';
 import image2 from '../images/banner_3.jpg';
 import image3 from '../images/camp_de_jour_artistique_peinture_dessin_2_laval_st-jerome.jpg';
@@ -10,7 +10,7 @@ import image6 from '../images/La-peinture-FB.jpg';
 import image7 from '../images/Enfant-peinture-mains-fotolia-630x0.jpg';
 import image8 from '../images/m-lange-agefac-expos-cours-mamy-noel-309.jpg';
 import image9 from '../images/thumb.jpg';
-
+import '../UserInterfaces/explore-clubs/explore-clubs.css'
 class ExploreClubPeinture extends Component {
 
   render(){

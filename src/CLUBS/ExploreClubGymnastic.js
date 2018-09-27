@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel, CarouselInner, CarouselItem } from 'mdbreact';
-import '../App.css'
+
 import image1 from '../images/201305291157-full.jpg';
 import image2 from '../images/cr.jpg';
 import image3 from '../images/event1.jpg';
@@ -12,7 +12,7 @@ import image8 from '../images/little_gym1.jpg';
 import image9 from '../images/registration-960x322.jpg';
 import image10 from '../images/wissem-herzi.jpg';
 import image11 from '../images/1111.jpg';
-
+import '../UserInterfaces/explore-clubs/explore-clubs.css'
 
 class ExploreClubGymnastic extends Component {
 

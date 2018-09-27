@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Carousel, CarouselInner, CarouselItem } from 'mdbreact';
-import '../App.css'
+
 import image1 from '../images/3eSpegardiensgarconsUne.jpg';
 import image2 from '../images/Club-africain-handball.jpg';
 import image3 from '../images/DI-final-2016_4.jpg';
 import image4 from '../images/handball_2.jpg';
 import image5 from '../images/kathryn-fudge_2056840b.jpg';
 import image6 from '../images/ptr_ekn_170216handball_01.jpg';
-
+import '../UserInterfaces/explore-clubs/explore-clubs.css'
 
 
 class ExploreClubHand extends Component {

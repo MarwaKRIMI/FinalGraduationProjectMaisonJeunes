@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Carousel, CarouselInner, CarouselItem } from 'mdbreact';
-import '../App.css'
+
 import image1 from '../images/58debd7d479a4550008b5696.jpg';
 import image2 from '../images/06362fdc-7698-11e3-87ca-cfcd83175838_original.jpg_h380.jpg';
 import image3 from '../images/14390625_10154437529094462_4389508975692741080_n.jpg';
 import image4 from '../images/DSC_0152.JPG';
 import image5 from '../images/DSC01048.JPG';
 import image6 from '../images/jeunesse-et-dynamisme-au-bilan-du-basket-club-basse-loire.jpg';
-
+import '../UserInterfaces/explore-clubs/explore-clubs.css'
 
 
 class ExploreClubBasket extends Component {

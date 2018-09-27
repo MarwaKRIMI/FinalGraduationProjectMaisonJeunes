@@ -31,7 +31,7 @@ export default class Example extends React.Component {
       <div >
         <Navbar color="warning" light expand="md" >
           <NavbarBrand href="/"><strong>Maison</strong>Jeunes</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
+          <NavbarToggler onClick={this.toggle}  style={{color:'white'}}/>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="mr-auto" navbar >
             <NavItem>
@@ -41,15 +41,15 @@ export default class Example extends React.Component {
                 <NavLink href='#propos'>A propos</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Evenements</NavLink>
+                <NavLink href="#evenement">Evenements</NavLink>
               </NavItem>
 
                     <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret href='#club'>
+                <DropdownToggle nav caret >
                   Adherations
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem >
+                  <DropdownItem href='/demandes-adhesions' >
                   Voir les demandes d'adhérations
                   </DropdownItem>
                
@@ -72,23 +72,24 @@ export default class Example extends React.Component {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="#">Inscrits</NavLink>
+                <NavLink href='/list-inscrit'>Inscrits</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret href='#club'>
+                <DropdownToggle nav caret >
                   Clubs
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem >
+                <DropdownItem  href='#club'>
+                   Liste des clubs
+                  </DropdownItem>
+                  <DropdownItem  href='/ajouter-club'>
                    Ajouter un club
                   </DropdownItem>
-                  <DropdownItem>
+                  <DropdownItem href='/modifier-club'>
                     Modifier un club
                   </DropdownItem>
                  
-                  <DropdownItem>
-                    Voir la liste des clubs
-                  </DropdownItem>
+              
                 </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>

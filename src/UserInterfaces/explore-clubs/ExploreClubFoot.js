@@ -1,28 +1,28 @@
 import React, { Component } from 'react';
-import { Carousel, CarouselInner, CarouselItem } from 'mdbreact';
-import"../../App.css"
-import image1 from '../../images/5ade02da7aa41_foot47.jpg';
+import { Carousel, CarouselInner, CarouselItem } from 'mdbreact'
+
+import NavBarUser from '../navbar-user/navbar-user'
+import image1 from '../../images/5ade02da7aa41_foot47.jpg'
 import image2 from '../../images/1911848-214972868700203-252842685-n__n26jr4.jpg'
-import image3 from '../../images/6524628_20170104-113641_1000x625.jpg';
-import image4 from '../../images/atur3__ob18ek.jpg';
-import image5 from '../../images/foot_beja.jpg';
-import image6 from '../../images/teaserbox_62453518.jpg';
-import image7 from '../../images/tunisiana-foot-academy-04.jpg';
-
-
+import image3 from '../../images/6524628_20170104-113641_1000x625.jpg'
+import image4 from '../../images/atur3__ob18ek.jpg'
+import image5 from '../../images/foot_beja.jpg'
+import image6 from '../../images/teaserbox_62453518.jpg'
+import image7 from '../../images/tunisiana-foot-academy-04.jpg'
+import './explore-club.css'
 class ExploreClubFoot extends Component {
 
   render(){
     return(
       <div>
-        <div>
-        <i> <h1 style={{textAlign:'center',marginTop:'50px', marginBottom:'50px',color:'#1E90FF',
-        fontWeight:'bold'}}>CLUB FOOTBALL</h1></i>
+         <NavBarUser/>
+        <div style={{marginTop:'5%'}}>
+        <h1 className="title-club" >CLUB FOOTBALL</h1>
           </div>
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-12">
-            <Carousel style={{marginLeft:'5%', marginRight:'5%'}}
+            <Carousel style={{marginLeft:'10%'}}
               activeItem={1}
               length={7}
               showControls={true}
@@ -68,13 +68,12 @@ class ExploreClubFoot extends Component {
           </div>
         </div>
       </div>
-      <div className='about-peinture' >
-      <h4>Instructeur : </h4>
-      
-        <p  style={{ textAlign: 'justify',marginLeft: '5%',fontSize:'25px',
-    marginRight: '5%',   fontFamily: 'Times New Roman',color:'black',border:'1px solid black',padding:'50px',marginTop:'20px'}}>
+      <div >
 
-    Présentation : <br/>
+      
+        <p className='about-club' >
+
+    <b>Présentation :</b> <br/><br/>
 
 Un club dynamique fort de plus de 40 ans d’expérience dans l’initiation au football, la pratique sportive de loisir et de compétition<br/>
 

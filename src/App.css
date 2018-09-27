@@ -10,38 +10,74 @@
   display: flex;
   justify-content: space-around;
 }
-.btn-container {
+.btn-add-club {
   box-shadow: 0 0 10px grey;
-  width: 80%;
+  width: 200px;
   align-self: flex-end;
   margin: 17px;
   padding: 17px;
   cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  background-color:orange;
+  border:none;
+  color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+.btn-modify-club{
+  box-shadow: 0 0 10px grey;
+  width: 200px;
+  align-self: flex-end;
+  padding: 17px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  background-color:orange;
+  border:none;
+  color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+
+
 .input-conatiner {
   display: flex;
   flex-direction: column;
   margin: 17px;
 }
 .input-conatiner input {
-  min-width: 350px;
+  min-width: 450px;
   margin: 7px 0 0 0;
+  height:50px
 }
 .add-product-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+
 }
-.navbar {
-  display: flex;
+
+.input-conatiner .input-club input[type="text"]{
   width: 100%;
+  height:50px;
+  color: #000000;
+  outline: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  border: none;
+  background:#0000005c;
+  border: 1px solid rgb(177, 139, 26);
+  box-shadow: 1px 5px 12px 0px rgba(0, 0, 0, 0.46);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
 }
 
+label{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:20px;
 
-
-
-
-table, th, td{
-  border: 1px solid black;
 }

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Carousel, CarouselInner, CarouselItem } from 'mdbreact';
-import '../App.css'
+
 import image1 from '../images/160501_nf5ab_moncton-educode_sn635.jpg';
 import image2 from '../images/352781_fag_13758_14_01_02.jpg';
 import image3 from '../images/Code-Club-e1486717182355-800x435.jpg';
 import image4 from '../images/enfants.jpg';
 import image5 from '../images/IMG_2242.jpg';
 import image6 from '../images/informatique-615x408.jpg';
-
+import '../UserInterfaces/explore-clubs/explore-clubs.css'
 
 
 

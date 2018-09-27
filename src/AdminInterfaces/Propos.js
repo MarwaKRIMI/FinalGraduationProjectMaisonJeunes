@@ -19,7 +19,7 @@ class Propos extends Component {
                        
                             </p>
                             
-
+                        <button>Voir plus</button>
 
 
                         </div>

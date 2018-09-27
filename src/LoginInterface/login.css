@@ -45,7 +45,7 @@
     box-sizing: border-box;
     border: none;
     background:#0000005c;
-    border: 1px solid #FFC107;
+    border: 1px solid rgb(177, 139, 26);
     box-shadow: 1px 5px 12px 0px rgba(0, 0, 0, 0.46);
 }
 
