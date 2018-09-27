@@ -8,7 +8,8 @@
 .container {
     display: flex;
     flex-direction: row;
-    margin: 10%
+    margin: 10%;
+    position: relative;
 }
 
 .propos-description {
@@ -39,7 +40,7 @@
     border: solid 1px orange;
     padding: 20px;
     width: 200px;
-    margin-left: -20%;
+    margin-left: -10%;
     margin-top: 50%;
     margin-Bottom: 16%;
 

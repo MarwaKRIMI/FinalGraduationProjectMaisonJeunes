@@ -4,6 +4,7 @@ import { withGoogleMap, GoogleMap } from 'react-google-maps';
 import 'font-awesome/css/font-awesome.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import 'mdbreact/dist/css/mdb.css';
+import './contactPage.css'
 
 class Maps extends Component {
     render() {
@@ -56,7 +57,8 @@ class ContactPage extends Component {
                     <Input icon="pencil" label="Message" iconClass="grey-text" type="textarea" id="form-text" />
                   </div>
                   <div className="text-center">
-                    <Button color="amber">Envoyer</Button>
+                    <button type='submit'style={{backgroundColor: 'orange',border:'none',width:'100px',
+        height: '50px'}}>Envoyer</button>
                   </div>
                 </CardBody>
               </Card>

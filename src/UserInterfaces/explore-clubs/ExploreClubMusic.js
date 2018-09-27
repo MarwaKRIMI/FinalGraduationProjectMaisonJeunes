@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel, CarouselInner, CarouselItem } from 'mdbreact';
-import"../../App.css"
+
 import image1 from '../../images/700_ecoledemusique_1_16_11.jpg';
 import image2 from '../../images/700_rencontredechorales_1_08_04.jpg';
 import image3 from '../../images/25435-161004135746613-01.jpg';
@@ -8,16 +8,17 @@ import image4 from '../../images/B9713825998Z.1_20171116101229_000+G70A5OQQ6.1-0
 import image5 from '../../images/chorale_enfants_c_michel_7799.jpg';
 import image6 from '../../images/club-de-musique.jpg';
 import image7 from '../../images/COV-3-795x413.jpg';
-
+import './explore-club.css'
+import NavBarUser from '../navbar-user/navbar-user'
 
 class ExploreClubMusic extends Component {
 
   render(){
     return(
-      <div>
+      <div style={{marginTop:'5%'}}>
+        <NavBarUser/>
         <div>
-        <i> <h1 style={{textAlign:'center',marginTop:'50px', marginBottom:'50px',color:'#1E90FF',
-        fontWeight:'bold'}}>CLUB MUSIQUE</h1></i>
+        <h1 className="title-club" style={{marginTop:'5%'}} >CLUB MUSIQUE</h1>
           </div>
       <div className="container mt-8">
         <div className="row">
@@ -68,13 +69,12 @@ class ExploreClubMusic extends Component {
           </div>
         </div>
       </div>
-      <div className='about-peinture' >
+      <div >
 
       
-        <p  style={{ textAlign: 'justify',marginLeft: '5%',fontSize:'25px',
-    marginRight: '5%',   fontFamily: 'Times New Roman',color:'black',border:'1px solid black',padding:'50px',marginTop:'20px'}}>
+        <p  className='about-club' >
 
- <h2> Présentation :</h2><br/>
+ <h2> <b>Présentation :</b></h2><br/><br/>
 
    
 
@@ -95,7 +95,7 @@ L'idée  est  partie  du  constat que,  bien  souvent,  nous  sommes  formatés 
 ou  de  ce  qu'une  politique de  majorité aura  choisi  pour  nous... Nos  sociétés  modernes ne laissent que très  peu  de  place  aux  "formations  originales" qui,  sans  doute,<br/> 
 ratissent  un  publique  moins  large que les  productions  industrielles...  Nous  avons  souhaité  laisser  la  parole  aux  instruments délaissés  des orchestres  et aux  artistes qui  en ont  fait  leur cheval de  bataille !<br/>
 <br/>
-<h2>Activités:</h2><br/>
+<h2><b>Activités :</b></h2><br/>
 
 Cet  espace  d'échange est  destiné  à présenter les  activités  du  club :  concerts,  conférences, stages etc... Vous  y retrouverez  par ailleurs,  nos  influences  et  nos  partis pris musicaux. <br/>
 

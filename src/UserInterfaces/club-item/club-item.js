@@ -2,7 +2,6 @@ import React from "react";
 //import {connect} from 'react-redux'
 import "./club-item.css";
 import {Link} from 'react-router-dom'
-
 const ClubCard = props => {
   const { club = {} } = props;
   const {
@@ -32,7 +31,8 @@ const ClubCard = props => {
         <Link to={`/club-${link}`}>
         <input class="explore-btn" type="button" value="Explorer" />
         </Link>
-        </div>
+                </div>
+
         </div>
         
     </div>

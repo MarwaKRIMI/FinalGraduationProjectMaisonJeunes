@@ -41,13 +41,13 @@ class EditProduct extends React.Component {
 
     return (
       <div className="add-product-container">
-        <h3>Edit Product Page</h3>
+        <h3>Modifier les données du club</h3>
         <div className="input-conatiner">
-          <label>Name</label>
+          <label>Nom du club</label>
           <input name="name" onChange={this.onChange} value={this.state.name} />
         </div>
         <div className="input-conatiner">
-          <label>Picture</label>
+          <label>Image du club</label>
           <input
             name="picture"
             onChange={this.onChange}
@@ -55,7 +55,7 @@ class EditProduct extends React.Component {
           />
         </div>
         <div className="input-conatiner">
-          <label>Price</label>
+          <label>Responsable du club</label>
           <input
             name="price"
             onChange={this.onChange}
@@ -63,7 +63,7 @@ class EditProduct extends React.Component {
           />
         </div>
         <div className="input-conatiner">
-          <label>Categorie</label>
+          <label>Catégorie</label>
           <input
             name="categorie"
             onChange={this.onChange}
@@ -71,7 +71,7 @@ class EditProduct extends React.Component {
           />
         </div>
         <div className="input-conatiner">
-          <label>Description</label>
+          <label>Description des activités du club</label>
           <input
             name="description"
             onChange={this.onChange}
@@ -79,7 +79,7 @@ class EditProduct extends React.Component {
           />
         </div>
         <Link to='/home-admin'>
-        <button onClick={this.onEditProduct}>Edit Product</button>
+        <button className='btn-modify-club' onClick={this.onEditProduct}>Modifier</button>
         </Link>
       </div>
     );

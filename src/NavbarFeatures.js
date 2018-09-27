@@ -39,6 +39,23 @@ class NavbarFeatures extends React.Component {
                           <NavItem>
                               <NavLink to="#">Clubs</NavLink>
                           </NavItem>
+                            <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  Clubs
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                   Ajouter un club
+                  </DropdownItem>
+                  <DropdownItem>
+                    Modifier un club
+                  </DropdownItem>
+                 
+                  <DropdownItem>
+                    Voir la liste des clubs
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
                           <NavItem>
                               <NavLink to="#">Hébergement</NavLink>
                           </NavItem>
@@ -48,12 +65,8 @@ class NavbarFeatures extends React.Component {
                         
                         </NavbarNav>
                         <NavbarNav right>
-                          <NavItem>
-                           <Button outline color="amber darken-1"> Se connecter </Button>
-                         </NavItem>
-                         <NavItem>
-                           <Button outline color="amber darken-1"> S'inscrire </Button>
-                         </NavItem>
+                          
+                         
                         </NavbarNav>
                     </Collapse>
                 </Navbar>

@@ -51,7 +51,7 @@ class LogIn extends Component {
 				</div>
                 <div className="sub-main-w3">
 				<form  >
-			<h2 style={{color:'white'}}>Créer votre Compte</h2>
+			<h2 style={{color:'white'}}>Connectez-vous</h2>
 			<div className="form-group">
 				<input type="email" onChange={this.onChange} className="form-control textbox email" name="email" placeholder="Email" required=""/>
 			</div>

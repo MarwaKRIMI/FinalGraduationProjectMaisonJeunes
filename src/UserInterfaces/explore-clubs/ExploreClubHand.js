@@ -7,7 +7,8 @@ import image3 from '../../images/DI-final-2016_4.jpg';
 import image4 from '../../images/handball_2.jpg';
 import image5 from '../../images/kathryn-fudge_2056840b.jpg';
 import image6 from '../../images/ptr_ekn_170216handball_01.jpg';
-
+import NavBarUser from '../navbar-user/navbar-user'
+import './explore-club.css'
 
 
 class ExploreClubHand extends Component {
@@ -15,14 +16,14 @@ class ExploreClubHand extends Component {
   render(){
     return(
       <div>
-        <div>
-        <i> <h1 style={{textAlign:'center',marginTop:'50px', marginBottom:'50px',color:'#1E90FF',
-        fontWeight:'bold'}}>CLUB HANDBALL</h1></i>
+         <NavBarUser/>
+        <div style={{marginTop:'5%'}}>
+      <h1 className='title-club' >CLUB HANDBALL</h1>
           </div>
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-12">
-            <Carousel style={{marginLeft:'5%', marginRight:'5%'}}
+            <Carousel style={{marginLeft:'10%'}}
               activeItem={1}
               length={6}
               showControls={true}
@@ -67,9 +68,8 @@ class ExploreClubHand extends Component {
       <div className='about-peinture' >
   
       
-        <p  style={{ textAlign: 'justify',marginLeft: '5%',fontSize:'25px',
-    marginRight: '5%',   fontFamily: 'Times New Roman',color:'black',border:'1px solid black',padding:'50px',marginTop:'20px'}}>
-<h2>Présentation : </h2> <br/>
+        <p className='about-club'>
+<h2><b>Présentation :</b> </h2> <br/>
 Le Handball est le sport collectif français dont les résultats Internationaux sont depuis de nombreuses années les meilleurs.<br/>
 Après le départ de joueurs cadres et l'intégration de jeunes très prometteurs, les filles sont en pleine reconstruction.<br/>
 Sur le plan National, notre club conduit à l'émergence de nouvelles équipes avec de très grands joueurs qui assurent chaque semaine un spectacle de qualité reconnue.<br/>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel, CarouselInner, CarouselItem } from 'mdbreact';
-import '../App.css'
+
 import image1 from '../images/04_9_14_2_1.jpg';
 import image2 from '../images/7d22936d6aa2617ecd6229316f7f43b2.jpg';
 import image3 from '../images/belles-femmes-exercant-a-nice-aerobic-fitness-club-g194ca.jpg';
@@ -9,7 +9,7 @@ import image5 from '../images/IMG_3837_82141.jpg';
 import image6 from '../images/maxresdefault (1).jpg';
 import image7 from '../images/maxresdefault.jpg';
 import image8 from '../images/step-aerobics.jpg';
-
+import '../UserInterfaces/explore-clubs/explore-clubs.css'
 
 class ExploreClubAerobic extends Component {
 
@@ -17,7 +17,7 @@ class ExploreClubAerobic extends Component {
     return(
       <div>
         <div>
-        <i> <h1 style={{textAlign:'center',marginTop:'50px', marginBottom:'50px',color:'#1E90FF',
+        <i> <h1 className style={{textAlign:'center',marginTop:'50px', marginBottom:'50px',color:'#1E90FF',
         fontWeight:'bold'}}>CLUB AEROBIQUE</h1></i>
           </div>
       <div className="container mt-5">
@@ -78,7 +78,7 @@ class ExploreClubAerobic extends Component {
 
       
         <p  style={{ textAlign: 'justify',marginLeft: '5%',fontSize:'25px',
-    marginRight: '5%',   fontFamily: 'Times New Roman',color:'black',border:'1px solid black',padding:'50px',marginTop:'20px'}}>
+    marginRight: '5%',   fontFamily: '"Arial Black", Gadget, sans-serif',color:'black',border:'1px solid black',padding:'50px',marginTop:'20px'}}>
 
 
 La Gymnastique Aérobic de compétition se définit comme un exercice qui contient des mouvements continus, avec des éléments<br/>

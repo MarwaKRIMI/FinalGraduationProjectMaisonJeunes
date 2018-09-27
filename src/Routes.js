@@ -2,16 +2,16 @@ import React from "react";
 import { Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import ProductItem from "./ProductItemDisplay";
-import AddProduct from "./AddProduct";
-import EditProduct from "./EditProduct";
+import AjouterClub from "./AdminInterfaces/AjouterClub";
+import EditProduct from "./AdminInterfaces/EditProduct";
 import LogIn from "./LoginInterface/login";
 import HomeAdmin from './AdminInterfaces/HomePageAdmin'
 import SignUp from "./SignUpInterface/signup";
 import Club from "./UserInterfaces/club/club"
 import UserProfile from"./UserInterfaces/user-profile/user-profile-modal"
 import HomePageUser from './UserInterfaces/HomePageUser'
-import Messages from "./UserInterfaces/message-box/mesaage-box-modal"
-
+import ModalExampleCloseIcon from "./UserInterfaces/message-box/mesaage-box-modal"
+import DemandesAdhesions from './AdminInterfaces/DemandesAdhesions'
 import ExploreClubAerobic from "./UserInterfaces/explore-clubs/ExploreClubAerobic"
 import ExploreClubBasket from "./UserInterfaces/explore-clubs/ExploreClubBasket"
 import ExploreClubFoot from "./UserInterfaces/explore-clubs/ExploreClubFoot"
@@ -20,6 +20,7 @@ import ExploreClubHand from "./UserInterfaces/explore-clubs/ExploreClubHand"
 import ExploreClubInformatique from "./UserInterfaces/explore-clubs/ExploreClubInformatique"
 import ExploreClubMusic from "./UserInterfaces/explore-clubs/ExploreClubMusic"
 import ExploreClubPeinture from "./UserInterfaces/explore-clubs/ExploreClubPeinture"
+import ListInscrits from './AdminInterfaces/ListInscrits'
 
 
 
@@ -40,8 +41,8 @@ class Routes extends React.Component {
           path="/edit-page/:name"
           render={props => <EditProduct name={props.match.params.name} />}
         />
-        <Route exact path="/add-product" component={AddProduct} />
-
+        <Route exact path="/add-product" component={AjouterClub} />
+          <Route exact path="/demandes-adhesions" component={DemandesAdhesions}/>
         <Route exact path="/club-musique" component={ExploreClubMusic}/>
         <Route exact path="/club-peinture" component={ExploreClubPeinture}/>
         <Route exact path="/club-football" component={ExploreClubFoot}/>
@@ -50,8 +51,11 @@ class Routes extends React.Component {
         <Route exact path="/club-informatique" component={ExploreClubInformatique}/>
         <Route exact path="/club-gymnastique" component={ExploreClubGymnastic}/>
         <Route exact path="/club-basketball" component={ExploreClubBasket}/>
-        
-        <Route exact path="/message-box-modal" component={Messages}/>
+        <Route exact path="/ajouter-club" component={AjouterClub}/>
+        <Route exact path="/modifier-club" component={EditProduct}/>
+        <Route exact path="/list-inscrit"component={ListInscrits}/>
+        <Route exact path="/message-box-modal" component={ModalExampleCloseIcon}/>
+     
         
       </div>
     );

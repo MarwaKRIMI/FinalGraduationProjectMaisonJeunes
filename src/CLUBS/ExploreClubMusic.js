@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel, CarouselInner, CarouselItem } from 'mdbreact';
-import '../App.css'
+
 import image1 from '../images/700_ecoledemusique_1_16_11.jpg';
 import image2 from '../images/700_rencontredechorales_1_08_04.jpg';
 import image3 from '../images/25435-161004135746613-01.jpg';
@@ -8,7 +8,7 @@ import image4 from '../images/B9713825998Z.1_20171116101229_000+G70A5OQQ6.1-0.jp
 import image5 from '../images/chorale_enfants_c_michel_7799.jpg';
 import image6 from '../images/club-de-musique.jpg';
 import image7 from '../images/COV-3-795x413.jpg';
-
+import '../UserInterfaces/explore-clubs/explore-clubs.css'
 
 class ExploreClubMusic extends Component {
 

@@ -3,6 +3,7 @@ import "../App.css";
 import { connect } from "react-redux";
 import axios from "axios";
 import {Link} from 'react-router-dom'
+
 class AjouterClub extends React.Component {
   onAddProduct = () => {
     axios
@@ -17,30 +18,30 @@ class AjouterClub extends React.Component {
   };
   render() {
     return (
-      <div className="add-product-container">
-        <h3>Veuillez entrer les données du club</h3>
-        <div className="input-conatiner">
-          <label>Nom </label>
-          <input name="name" onChange={this.onChange} />
+      <div className="add-product-container"  >
+        <h3>Veuillez entrer les données du club à ajouter</h3>
+        <div className="input-conatiner" >
+          <label>Nom du club </label>
+          <input  type='text' className='input-club'name="name" onChange={this.onChange} />
         </div>
         <div className="input-conatiner">
-          <label>Image</label>
-          <input name="picture" onChange={this.onChange} />
+          <label>Image du club</label>
+          <input type="text" name="picture" onChange={this.onChange} />
         </div>
         <div className="input-conatiner">
-          <label>Instructeur</label>
-          <input name="price" onChange={this.onChange} />
+          <label>Responsable du club</label>
+          <input type="text" name="price" onChange={this.onChange} />
         </div>
         <div className="input-conatiner">
-          <label>Spécialité</label>
-          <input name="categorie" onChange={this.onChange} />
+          <label>Catégorie</label>
+          <input  type="text" name="categorie" onChange={this.onChange} />
         </div>
         <div className="input-conatiner">
-          <label>Description</label>
-          <input name="description" onChange={this.onChange} />
+          <label>Description des activités du club</label>
+          <input  type="text" name="description" onChange={this.onChange} />
         </div>
      <Link to='/home-admin'>
-        <button onClick={this.onAddProduct}>Ajouter</button>
+        <button className='btn-add-club' onClick={this.onAddProduct}>Ajouter</button>
         </Link>
      
       </div>

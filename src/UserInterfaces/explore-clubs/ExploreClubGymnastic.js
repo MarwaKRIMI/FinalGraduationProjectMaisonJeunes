@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel, CarouselInner, CarouselItem } from 'mdbreact';
-import"../../App.css"
+
 import image1 from '../../images/201305291157-full.jpg';
 import image2 from '../../images/cr.jpg';
 import image3 from '../../images/event1.jpg';
@@ -12,16 +12,16 @@ import image8 from '../../images/little_gym1.jpg';
 import image9 from '../../images/registration-960x322.jpg';
 import image10 from '../../images/wissem-herzi.jpg';
 import image11 from '../../images/1111.jpg';
-
-
+import NavBarUser from '../navbar-user/navbar-user'
+import './explore-club.css'
 class ExploreClubGymnastic extends Component {
 
   render(){
     return(
       <div>
-        <div>
-         <i> <h1 style={{textAlign:'center',marginTop:'50px', marginBottom:'50px',color:'#1E90FF',
-        fontWeight:'bold'}}>CLUB GYMNASTIQUE</h1></i>
+         <NavBarUser/>
+        <div style={{marginTop:'5%'}}>
+         <h1 className='title-club'>CLUB GYMNASTIQUE</h1>
           </div>
       <div className="container mt-8">
         <div className="row">
@@ -98,9 +98,8 @@ class ExploreClubGymnastic extends Component {
 
       
       
-        <p  style={{ textAlign: 'justify',marginLeft: '5%',fontSize:'25px',
-    marginRight: '5%',   fontFamily: 'Times New Roman',color:'black',border:'1px solid black',padding:'50px',marginTop:'20px'}}>
-    <h2>Présentation :</h2><br/>
+        <p  className='about-club'>
+    <h2><b>Présentation :</b></h2><br/>
 la section Gymnastique du complexe des jeunes de Sousse  a su s'imposer grâce à un encadrement compétent.<br/>
 
 Commençant alors avec une quarantaine de membres,la section Gymnastique et propose actuellement diverses activités telles que : <br/>
@@ -108,8 +107,8 @@ Gymnastique de Compétition et de Loisirs,<br/>
 Baby-Gym, Fitness, Hip-Hop, Ragga et touche un public allant de 15 à 35 ans! et permet aux pratiquants d'évoluer et d'accéder aux filières de Haut Niveau.<br/>
 
 Depuis, chaque année, plusieurs gymnastes représentent le club au niveau national sur les compétitions individuelles et par équipes.<br/>
-
-<h2>Pratiques compétitives :</h2> <br/>
+<br/>
+<h2><b>Pratiques compétitives :</b></h2> <br/>
 
 
 la Gymnastique Artistique Féminine: exercices aux 4 agrès (saut de cheval, barres asymétriques, poutre et sol).<br/>
@@ -117,7 +116,7 @@ la Gymnastique Rythmique: pratique gymnique rythmée, chorégraphique et avec le
 Le trampoline : discipline acrobatique par excellence.<br/>
 Le Tumbling : discipline acrobatique à grande vitesse<br/>
 <br/>
-<h2>Pratiques de loisirs :</h2> <br/>
+<h2><b>Pratiques de loisirs :</b></h2> <br/>
 
 
 la Gymnastique Forme Loisir: gymnastique d'entretien pour les adolescent(e)s et les adultes.<br/>

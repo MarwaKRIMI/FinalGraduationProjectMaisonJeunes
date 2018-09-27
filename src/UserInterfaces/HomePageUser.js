@@ -6,7 +6,7 @@ import Navbar from './navbar-user/navbar-user'
 import Banner from'./banner/banner-slider'
 class HomeUser extends React.Component{
     render() {
-        return <div> User Page
+        return <div> 
             <Navbar/>
             <Banner/>
               <Propos id='à propos' />

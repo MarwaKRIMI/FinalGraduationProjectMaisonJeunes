@@ -29,10 +29,11 @@ class ProductItem extends React.Component {
    
         <div>
           <Link to={`/edit-page/${this.props.product.name}`}>
-            <button className="edit"  style={{ marginLeft: "7px",width:'100px'}}>Edit</button>
+          
+            <button className="edit"  style={{ marginLeft: "7px",width:'100px'}}>Modifier</button>
           </Link>
           <button  className="remove" style={{ marginLeft: "7px",width:'100px'}} onClick={this.onRemoveProduct}>
-            Remove
+            Supprimer
           </button>
         </div>
       </div>

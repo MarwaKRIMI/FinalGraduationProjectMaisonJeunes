@@ -10,7 +10,7 @@ class HomePage extends Component {
   }
   render() {
     return (
-      <div className="App">
+      <div className="App" id='club'>
         <div className="products-list-display">
           {this.props.ProductsList.map((e, i) => (
             <ProductItem key={i} product={e} />

@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom'
 
 import { Container, Row, Col, Input} from 'mdbreact';
 
-class NavbarFeatures extends React.Component {
+class NavbarUser extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -47,22 +47,22 @@ class NavbarFeatures extends React.Component {
         </Popover>
                           </NavItem>
                           <NavItem>
-                              <NavLink to="/evenement">Evenements</NavLink>
-                          </NavItem>
-                        
-                          <Link to="/demandes-adhesions">Demandes d'adhésions</Link>
-                         
-                          <NavItem>
-                          <NavLink to="#club">Clubs</NavLink>
+                              <NavLink to="/ajouter-evenement">Evenements</NavLink>
                           </NavItem>
                           <NavItem>
-                          <NavLink href="/ajouter-club">Ajouter des clubs</NavLink>
+                          <NavLink to="/demandes-adhesions">Demandes d'adhésions</NavLink>
+                          </NavItem>
+                          <NavItem>
+                          <NavLink to="/clubs">Clubs</NavLink>
+                          </NavItem>
+                          <NavItem>
+                          <NavLink to="/ajouter-club">Ajouter des clubs</NavLink>
                           </NavItem>
                           <NavItem>
                           <NavLink to="/list-inscrits">Liste des inscrits</NavLink>
                           </NavItem>
                           <NavItem>
-                          <Link to="#galery"><NavLink to="#" >Galerie</NavLink></Link>
+                          <Link to="#"><NavLink to="#" >Galerie</NavLink></Link>
                           </NavItem>
                           
                         </NavbarNav>
@@ -78,4 +78,4 @@ class NavbarFeatures extends React.Component {
         );
     }
 }
-export default NavbarFeatures
+export default NavbarUser
