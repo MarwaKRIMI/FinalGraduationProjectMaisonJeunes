@@ -1,6 +1,9 @@
 .propos-title {
     text-align: center;
+    margin-bottom: -8%;
+    margin-top: -6%;
 }
+
 
 .container {
     display: flex;
@@ -11,8 +14,20 @@
 .propos-description {
     border: solid 1px orange;
     padding: 20px;
-    width: 400px;
-    margin: 5;
+    width: 50%;
+    
+    max-height: 195px;
+    background-color: #f8f6f900;
+    margin-top: 7%;
+    margin-right: 3%; 
+}
+
+.animators{
+    border: solid 1px orange;
+    position: relative;
+    bottom: 27%;
+    right: 70%;
+    text-align: center;
 }
 
 .statistics {
@@ -30,15 +45,7 @@
 
 }
 
-.faculty {
-    border: solid 1px orange;
-    padding:20px;
-    width:200px;
-    margin-left: -20%;
-    margin-top: 5%;
-    margin-bottom: 16%;
 
-}
 
 /*CSS Propos Details*/
 .propos-description-details{

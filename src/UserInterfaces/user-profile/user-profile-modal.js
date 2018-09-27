@@ -5,12 +5,11 @@ import './user-profile.css'
 
 const UserProfile = () => (
   <Modal  trigger={<Button style={{
-        position: "relative",
-        bottom:"21%",
-        left: "43%",
+        
+        fontSize:'18px',
         backgroundColor: "orange",
         color: "white",
-        fontWeight: "100"}}>Profile</Button>} closeIcon>
+        fontWeight: "400"}}>Profile</Button>} closeIcon>
     <Modal.Content>
     <div className="profil-container">
 			<div className="profil-container-top"></div>

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Button, Header, Icon, Modal } from 'semantic-ui-react'
-import "./message-box-modal.css"
 
-const Propos = () => (
-  <Modal style={{maxHeight:"50%"}} trigger={<Button style={{
+
+const ProposModal = () => (
+  <Modal style={{maxHeight:"80%"}} trigger={<Button style={{
         position: "relative",
         bottom:"21%",
         backgroundColor: "orange",
@@ -38,4 +38,4 @@ elle offre, aussi, à l’ensemble de ses membres une vie associative riche et v
   </Modal>
 )
 
-export default Propos
+export default ProposModal

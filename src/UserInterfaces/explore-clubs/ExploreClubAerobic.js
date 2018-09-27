@@ -73,6 +73,7 @@ class ExploreClubAerobic extends Component {
           </div>
         </div>
       </div>
+
       <div className='about-aerobic' >
 
       
@@ -95,8 +96,6 @@ plus efficace, une plus grande quantité de sang peut être pompée à chaque pu
 de pulsations pour véhiculer le sang dans le corps. Un pratiquant régulier pourra donc travailler ses mouvements plus longtemps,<br/>
 
 de manière plus vigoureuse et récupèrera très vite après la fin d'un exercice.<br/>
-
- 
 
 La Gymnastique Aérobic demande à la fois des mouvements dynamiques, exige de la force, de la souplesse, de la coordination
 

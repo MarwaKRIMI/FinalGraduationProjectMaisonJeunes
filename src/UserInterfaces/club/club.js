@@ -8,7 +8,7 @@ import ClubListContainer from '../club-list/club-list'
 const Club = () => {
   
  return  <div className="club">
- <h1>Clubs</h1>
+ <h1 >Clubs</h1>
     <main className="club-main">
         <ClubListContainer />
     </main>

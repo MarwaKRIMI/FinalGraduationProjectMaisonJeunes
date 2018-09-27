@@ -21,11 +21,10 @@ class HomeAdmin extends React.Component{
          <Banner/>
             
             <Propos/>
-      <Galery/>
-  <Evenement/>
- 
+      
+            <Evenement/>
 
-<HomePage/>
+            <HomePage/>
 
             </div>
 

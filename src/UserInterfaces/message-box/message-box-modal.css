@@ -8,16 +8,11 @@ justify-content: space-between
     position: relative;
     bottom: 0px;
     left: 15px;
-    height: 20px;
+    height: 22px;
+    border: none;
 }
 .message-content button:hover{
     background-color: orange;
 }
 
 
-.ui button {
-    position: relative;
-    bottom: 21%;
-    background-color: orange;
-    color: white;
-    font-weight: 100;}

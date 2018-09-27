@@ -4,11 +4,10 @@ import "./message-box-modal.css"
 
 const Messages = () => (
   <Modal style={{maxHeight:"50%"}} trigger={<Button style={{
-        position: "relative",
-        bottom:"21%",
-        backgroundColor: "orange",
-        color: "white",
-        fontWeight: "100"}}>Messages</Button>} closeIcon>
+    fontSize:'18px',
+    backgroundColor: "orange",
+    color: "white",
+    fontWeight: "400"}}>Messages</Button>} closeIcon>
     <Header  icon='envelope' content='Messages:' />
     <Modal.Content>
       <ol>
