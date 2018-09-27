@@ -4,9 +4,9 @@ export const admin = {
 }
 
 export const user = {
-    name :"marwa",
-    email : "marwa@gmail.com",
-    password : "marwa"
+    name :"aymen",
+    email : "aymen@gmail.com",
+    password : "aymen"
 }
 
 

@@ -13,3 +13,11 @@ justify-content: space-between
 .message-content button:hover{
     background-color: orange;
 }
+
+
+.ui button {
+    position: relative;
+    bottom: 21%;
+    background-color: orange;
+    color: white;
+    font-weight: 100;}

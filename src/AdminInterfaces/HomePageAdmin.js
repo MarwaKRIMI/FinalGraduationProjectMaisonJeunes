@@ -3,7 +3,7 @@ import React from 'react'
 import '../App.css'
 
 
-
+import Banner from'./banner/banner-slider'
 import Propos from './Propos'
 import Galery from '../galery'
 import Evenement from './Evenement'
@@ -18,7 +18,7 @@ class HomeAdmin extends React.Component{
     render() {
         return <div>
            
-         
+         <Banner/>
             
             <Propos/>
       <Galery/>

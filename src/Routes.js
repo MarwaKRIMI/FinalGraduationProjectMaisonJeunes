@@ -8,9 +8,9 @@ import LogIn from "./LoginInterface/login";
 import HomeAdmin from './AdminInterfaces/HomePageAdmin'
 import SignUp from "./SignUpInterface/signup";
 import Club from "./UserInterfaces/club/club"
-import UserProfile from"./UserInterfaces/user-profile/user-profile"
+import UserProfile from"./UserInterfaces/user-profile/user-profile-modal"
 import HomePageUser from './UserInterfaces/HomePageUser'
-import ModalExampleCloseIcon from "./UserInterfaces/message-box/mesaage-box-modal"
+import Messages from "./UserInterfaces/message-box/mesaage-box-modal"
 
 import ExploreClubAerobic from "./UserInterfaces/explore-clubs/ExploreClubAerobic"
 import ExploreClubBasket from "./UserInterfaces/explore-clubs/ExploreClubBasket"
@@ -51,7 +51,7 @@ class Routes extends React.Component {
         <Route exact path="/club-gymnastique" component={ExploreClubGymnastic}/>
         <Route exact path="/club-basketball" component={ExploreClubBasket}/>
         
-        <Route exact path="/message-box-modal" component={ModalExampleCloseIcon}/>
+        <Route exact path="/message-box-modal" component={Messages}/>
         
       </div>
     );

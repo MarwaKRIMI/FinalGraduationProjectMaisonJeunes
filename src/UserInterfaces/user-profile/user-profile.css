@@ -49,11 +49,14 @@
 .profile-information p{
     margin-left:20px;
 }
-.btn{
+.btn-modify{
     position: relative;
     bottom: 450px;
     left: 137px;
     width: 124px;
     font-size: 13px;
+    background-color: orange;
+    border:none;
+    height:50px;
 
 }

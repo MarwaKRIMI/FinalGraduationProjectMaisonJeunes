@@ -2,8 +2,13 @@ import React from 'react'
 import { Button, Header, Icon, Modal } from 'semantic-ui-react'
 import "./message-box-modal.css"
 
-const ModalExampleCloseIcon = () => (
-  <Modal trigger={<Button>Messages</Button>} closeIcon>
+const Messages = () => (
+  <Modal style={{maxHeight:"50%"}} trigger={<Button style={{
+        position: "relative",
+        bottom:"21%",
+        backgroundColor: "orange",
+        color: "white",
+        fontWeight: "100"}}>Messages</Button>} closeIcon>
     <Header  icon='envelope' content='Messages:' />
     <Modal.Content>
       <ol>
@@ -34,4 +39,4 @@ const ModalExampleCloseIcon = () => (
   </Modal>
 )
 
-export default ModalExampleCloseIcon
+export default Messages
